@@ -58,13 +58,13 @@ features = np.hstack((mel_feature, mfcc_feature))
 
 # Charger le scaler pour mettre à l'échelle les caractéristiques
 # Note: Assurez-vous que le scaler a été déjà ajusté avec des données d'entraînement
-scaler = joblib.load("C:\\Users\\eyabo\\Downloads\\scaler.pkl")
+scaler = joblib.load("C:.\\scaler.pkl")
 
 # Mettre à l'échelle les caractéristiques
 features_scaled = scaler.transform([features])
 
 # Charger votre modèle pré-entraîné
-model = load_model("C:\\Users\\eyabo\\Downloads\\Audio_model.h5")
+model = load_model("C:.\\Audio_model.h5")
 
 # Effectuer une prédiction
 prediction = model.predict(features_scaled)
