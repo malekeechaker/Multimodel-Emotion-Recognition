@@ -112,11 +112,3 @@ pip install -r requirements.txt
      cm = confusion_matrix(test_data.Label, test_predictions)
      ConfusionMatrixDisplay(cm, display_labels=["Class 0", "Class 1", "Class 2", ...]).plot()
      ```
-
----
-
-## Contributeurs
-
-- **Nom** : Votre Nom
-- **Email** : votre.email@example.com
-- **GitHub** : [Votre Profil GitHub](https://github.com/votre-utilisateur)
