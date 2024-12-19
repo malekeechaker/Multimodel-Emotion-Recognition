@@ -1,4 +1,4 @@
-# BERT-Based Emotion Classification
+a# BERT-Based Emotion Classification
 
 Ce projet utilise un modèle BERT pour effectuer une classification multi-classes sur des données textuelles afin de détecter différentes émotions. Le workflow inclut la préparation des données, l'entraînement du modèle, l'évaluation et la sauvegarde.
 
@@ -33,8 +33,8 @@ pip install tensorflow transformers scikit-learn matplotlib
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/votre-utilisateur/bert-emotion-classification.git
-cd bert-emotion-classification
+git clone https://github.com/malekeechaker/Multimodel-Emotion-Recognition.git
+cd Text
 ```
 
 2. Installez les dépendances via `pip` :
