@@ -1,4 +1,4 @@
-a# BERT-Based Emotion Classification
+# BERT-Based Emotion Classification
 
 Ce projet utilise un modèle BERT pour effectuer une classification multi-classes sur des données textuelles afin de détecter différentes émotions. Le workflow inclut la préparation des données, l'entraînement du modèle, l'évaluation et la sauvegarde.
 
